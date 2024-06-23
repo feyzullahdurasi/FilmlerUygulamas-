@@ -11,7 +11,7 @@ import SwiftUI
 struct FilmlerUygulamas_App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Anasayfa()
         }
     }
 }
