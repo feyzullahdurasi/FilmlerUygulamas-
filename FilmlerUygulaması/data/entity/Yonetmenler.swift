@@ -7,15 +7,15 @@
 
 import Foundation
 
-class Yonetmenler : Identifiable {
-    var yonetmen_id:Int?
+class Yonetmenler : Identifiable, Codable {
+    var yonetmen_id:String?
     var yonetmen_ad:String?
     
     init(){
         
     }
     
-    init(yonetmen_id: Int? = nil, yonetmen_ad: String? = nil) {
+    init(yonetmen_id: String? = nil, yonetmen_ad: String? = nil) {
         self.yonetmen_id = yonetmen_id
         self.yonetmen_ad = yonetmen_ad
     }

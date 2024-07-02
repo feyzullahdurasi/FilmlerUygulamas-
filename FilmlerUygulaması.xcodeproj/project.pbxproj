@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65A4E2872C32B5A800B2A856 /* KategorilerCevap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A4E2862C32B5A800B2A856 /* KategorilerCevap.swift */; };
+		65A4E2892C32B7E300B2A856 /* FilmlerCevap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A4E2882C32B7E300B2A856 /* FilmlerCevap.swift */; };
 		65AE14492C26D24D00EE6DFA /* FilmlerUygulamas_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AE14482C26D24D00EE6DFA /* FilmlerUygulamas_App.swift */; };
 		65AE144B2C26D24D00EE6DFA /* FilmlerUygulaması.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AE144A2C26D24D00EE6DFA /* FilmlerUygulaması.swift */; };
 		65AE144D2C26D24E00EE6DFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65AE144C2C26D24E00EE6DFA /* Assets.xcassets */; };
@@ -23,6 +25,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		65A4E2852C32AB8F00B2A856 /* FilmlerUygulamas--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "FilmlerUygulamas--Info.plist"; sourceTree = SOURCE_ROOT; };
+		65A4E2862C32B5A800B2A856 /* KategorilerCevap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KategorilerCevap.swift; sourceTree = "<group>"; };
+		65A4E2882C32B7E300B2A856 /* FilmlerCevap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmlerCevap.swift; sourceTree = "<group>"; };
 		65AE14452C26D24D00EE6DFA /* FilmlerUygulaması.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FilmlerUygulaması.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65AE14482C26D24D00EE6DFA /* FilmlerUygulamas_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmlerUygulamas_App.swift; sourceTree = "<group>"; };
 		65AE144A2C26D24D00EE6DFA /* FilmlerUygulaması.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FilmlerUygulaması.swift"; sourceTree = "<group>"; };
@@ -69,6 +74,7 @@
 		65AE14472C26D24D00EE6DFA /* FilmlerUygulaması */ = {
 			isa = PBXGroup;
 			children = (
+				65A4E2852C32AB8F00B2A856 /* FilmlerUygulamas--Info.plist */,
 				65AE14482C26D24D00EE6DFA /* FilmlerUygulamas_App.swift */,
 				65B3DDC62C272D0400596764 /* ui */,
 				65B3DDC52C272CF400596764 /* data */,
@@ -109,7 +115,9 @@
 			children = (
 				65AE145A2C26D5A100EE6DFA /* Yonetmenler.swift */,
 				65AE145C2C26D5F300EE6DFA /* Filmler.swift */,
+				65A4E2882C32B7E300B2A856 /* FilmlerCevap.swift */,
 				65AE14582C26D4E100EE6DFA /* Kategoriler.swift */,
+				65A4E2862C32B5A800B2A856 /* KategorilerCevap.swift */,
 			);
 			path = entity;
 			sourceTree = "<group>";
@@ -217,11 +225,13 @@
 				65AE14632C2705D800EE6DFA /* KategoriItem.swift in Sources */,
 				65B3DDCE2C272E2B00596764 /* FilmSayfaViewModel.swift in Sources */,
 				65AE145F2C26E86E00EE6DFA /* FilmItem.swift in Sources */,
+				65A4E2872C32B5A800B2A856 /* KategorilerCevap.swift in Sources */,
 				65AE145B2C26D5A100EE6DFA /* Yonetmenler.swift in Sources */,
 				65AE145D2C26D5F300EE6DFA /* Filmler.swift in Sources */,
 				65B3DDCC2C272DD200596764 /* AnasayfaViewModel.swift in Sources */,
 				65AE14612C26EE4A00EE6DFA /* DetaySayfa.swift in Sources */,
 				65AE14652C27061F00EE6DFA /* Anasayfa.swift in Sources */,
+				65A4E2892C32B7E300B2A856 /* FilmlerCevap.swift in Sources */,
 				65AE14492C26D24D00EE6DFA /* FilmlerUygulamas_App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -359,6 +369,7 @@
 				DEVELOPMENT_TEAM = 2BJUT72GH8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "FilmlerUygulamas--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -388,6 +399,7 @@
 				DEVELOPMENT_TEAM = 2BJUT72GH8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "FilmlerUygulamas--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

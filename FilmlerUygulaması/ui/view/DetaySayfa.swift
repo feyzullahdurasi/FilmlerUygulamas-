@@ -13,7 +13,7 @@ struct DetaySayfa: View {
     
     var body: some View {
         VStack(spacing: 50){
-            Image(film.film_resim!)
+            AsyncImage(url: URL(string: "http://kasimadalan.pe.hu/filmler/resimler/\(film.film_resim!)"))
             
             Text(film.yonetmen!.yonetmen_ad!).font(.system(size: 30))
             

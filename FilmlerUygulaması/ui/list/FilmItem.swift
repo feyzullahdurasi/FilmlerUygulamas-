@@ -12,7 +12,11 @@ struct FilmItem: View {
     var genislik = 0.0
     var body: some View {
         VStack(spacing: 5){
-            Image(film.film_resim!).resizable().frame(width: genislik)
+            AsyncImage(url: URL(string: "http://kasimadalan.pe.hu/filmler/resimler/\(film.film_resim!)")) { image in
+                image.resizable()
+            } placeholder: {
+                ProgressView()
+            }
             Text(film.film_ad!).foregroundColor(.gray)
             Text("Sepete Ekle")
                 .padding(5)

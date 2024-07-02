@@ -24,7 +24,9 @@ struct Anasayfa: View {
                 .onAppear{
                     viewModel.kategorilerYukle()
                 }
+            
         }
+        
     }
 }
 

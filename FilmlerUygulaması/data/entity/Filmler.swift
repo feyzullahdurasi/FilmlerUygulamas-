@@ -7,10 +7,10 @@
 
 import Foundation
 
-class Filmler : Identifiable {
-    var film_id:Int?
+class Filmler : Identifiable, Codable {
+    var film_id:String?
     var film_ad:String?
-    var film_yil:Int?
+    var film_yil:String?
     var film_resim:String?
     var kategori:Kategoriler?
     var yonetmen:Yonetmenler?
@@ -19,7 +19,7 @@ class Filmler : Identifiable {
         
     }
     
-    init(film_id: Int? = nil, film_ad: String? = nil, film_yil: Int? = nil, film_resim: String? = nil, kategori: Kategoriler? = nil, yonetmen: Yonetmenler? = nil) {
+    init(film_id: String? = nil, film_ad: String? = nil, film_yil: String? = nil, film_resim: String? = nil, kategori: Kategoriler? = nil, yonetmen: Yonetmenler? = nil) {
         self.film_id = film_id
         self.film_ad = film_ad
         self.film_yil = film_yil

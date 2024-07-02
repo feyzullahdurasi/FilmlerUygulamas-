@@ -31,7 +31,7 @@ struct FilmlerUygulaması: View {
                     .navigationTitle(kategori.kategori_ad!)
                     
                     .onAppear{
-                        viewModel.filmleriYukle(kategori_id: kategori.kategori_id!)
+                        viewModel.filmleriYukle(kategori_id: Int(kategori.kategori_id!)!)
                     }
             }
         
